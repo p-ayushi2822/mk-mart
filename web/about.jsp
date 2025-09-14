@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Elite Store</title>
+    <title>About Us - Mk mart</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
@@ -35,11 +35,11 @@
     <%@ include file="header.jsp" %>
 
     <div class="container">
-        <h1 class="section-title">About Elite Store</h1>
+        <h1 class="section-title">About Mk mart</h1>
 
         <div class="content-block">
             <h2>Our Mission</h2>
-            <p>At Elite Store, our mission is to provide cutting-edge technology products that enhance the daily lives of our customers. We believe in offering a curated selection of high-quality electronics, smart home devices, and accessories that combine innovation with exceptional design.</p>
+            <p>At Mk mart, our mission is to provide cutting-edge technology products that enhance the daily lives of our customers. We believe in offering a curated selection of high-quality electronics, smart home devices, and accessories that combine innovation with exceptional design.</p>
         </div>
 
         <div class="content-block">
