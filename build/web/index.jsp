@@ -121,10 +121,11 @@
 
                 <div class="product-grid">
                     <% 
+                        User user = (User) session.getAttribute("user");
                         ProductDAO productDAO = new ProductDAO();
                         List<Product> products = productDAO.getAllProducts();
                         WishlistDAO wishlistDAO = new WishlistDAO();
-                        int userId = (currentUser != null) ? currentUser.getId() : -1;
+                        int userId = (user != null) ? user.getId() : -1;
                         Wishlist wishlist = wishlistDAO.getWishlistByUserId(userId);
                         for (Product product : products) {
                             boolean isInWishlist = wishlistDAO.isProductInWishlist(wishlist != null ? wishlist.getId() : -1, product.getId());
@@ -163,7 +164,7 @@
                 <div class="grid grid-cols-1 md-grid-cols-4 gap-8">
                     <div>
                         <h4 class="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-                            Elite Store
+                            Mk mart
                         </h4>
                         <p class="text-muted-foreground">
                             Premium technology products for the modern lifestyle.
@@ -195,7 +196,7 @@
                     </div>
                 </div>
                 <div class="border-t mt-8 pt-8 text-center text-muted-foreground">
-                    <p>&copy; 2024 Elite Store. All rights reserved.</p>
+                    <p>&copy; 2025 Mk mart. All rights reserved.</p>
                 </div>
             </div>
         </footer>
